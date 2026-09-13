@@ -4,11 +4,11 @@ A responsive ecommerce fashion website built as a frontend learning project. Nos
 
 ## Live Demo
 
-[View Live Demo](#) — *Add your live link here*
+[View Live Demo](https://sherwinjclitus.github.io/Nostra/)
 
 ## About the Project
 
-Nostra is a fully responsive ecommerce website designed to demonstrate frontend development skills. The project features a clean, professional design with seamless navigation across desktop and mobile devices. It serves as a practical learning experience in building interactive user experiences with vanilla HTML, CSS, and JavaScript.
+Nostra is a fully responsive ecommerce website designed to demonstrate frontend development skills. The project features a clean, professional design with seamless navigation across desktop and mobile devices.
 
 ## Features
 
