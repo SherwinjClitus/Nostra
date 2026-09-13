@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Collections - Nostra</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="./favicon.svg" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="title">
+        <h1>Nostra</h1>
+      </div>
+
+      <!-- Desktop Navbar -->
+      <div class="pages">
+        <a href="index.html">Home</a>
+        <a href="index.html#new-arrivals">New Arrivals</a>
+        <a href="index.html#most-wanted">Most Wanted</a>
+        <a href="collections.html">Collections</a>
+        <a href="contactus.html">Contact Us</a>
+
+        <i class="fa-solid fa-bars menu"></i>
+      </div>
+
+      <!-- Mobile Sidebar -->
+      <div class="mobile-menu">
+        <div class="mobile-menu__close">
+          <i class="fa-solid fa-xmark close"></i>
+        </div>
+
+        <div class="mobile-menu__pages">
+          <a href="index.html">Home</a>
+          <a href="index.html#new-arrivals">New Arrivals</a>
+          <a href="index.html#most-wanted">Most Wanted</a>
+          <a href="collections.html">Collections</a>
+          <a href="contactus.html">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- COLLECTIONS -->
+
+    <section class="collections">
+      <div class="collections__body">
+        <!-- LEFT FILTER -->
+
+        <div class="collections__container1">
+          <h1>Occasion</h1>
+
+          <div class="collections__filter">
+            <div>
+              <input type="checkbox" value="summer" />
+              Summer
+            </div>
+
+            <div>
+              <input type="checkbox" value="party" />
+              Party
+            </div>
+
+            <div>
+              <input type="checkbox" value="beach"/>
+              Beach
+            </div>
+          </div>
+
+          <h1>Colors</h1>
+
+          <div class="collections__filter">
+            <div>
+              <input type="checkbox" value="red" />
+              Red
+            </div>
+
+            <div>
+              <input type="checkbox" value="blue" />
+              Blue
+            </div>
+
+            <div>
+              <input type="checkbox" value="white"/>
+              White
+            </div>
+
+            <div>
+              <input type="checkbox" value="green"/>
+              Green
+            </div>
+          </div>
+
+          <h1>Arrivals</h1>
+
+          <div class="collections__filter">
+            <div>
+              <input type="checkbox" value="new" />
+              New
+            </div>
+
+            <div>
+              <input type="checkbox" value="old" />
+              Old
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+
+        <div class="collections__container2">
+          <!-- SEARCH BAR -->
+
+          <div class="collections__search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Search" id="search" />
+          </div>
+
+          <!-- PRODUCTS -->
+
+          <div class="collection-products">
+            <!-- PRODUCT 1 -->
+
+            <div
+              class="collection-product"
+              data-occasion="Summer"
+              data-color="Blue"
+              data-arrival="New">
+
+              <img src="./images/f1.jpg" />
+
+              <h2>Floral Summer Shirt</h2>
+
+              <p>₹399</p>
+            </div>
+
+            <!-- PRODUCT 2 -->
+
+            <div class="collection-product"
+            data-occasion="Beach"
+              data-color="Green"
+              data-arrival="New">
+              <img src="./images/f2.jpg" />
+
+              <h2>Green Printed Floral Shirt</h2>
+
+              <p>₹599</p>
+            </div>
+
+            <!-- PRODUCT 3 -->
+
+            <div class="collection-product"
+            data-occasion="Party"
+              data-color="Blue"
+              data-arrival="New">
+              <img src="./images/f3.jpg" />
+
+              <h2>Floral Print Casual Shirt</h2>
+
+              <p>₹699</p>
+            </div>
+
+            <!-- PRODUCT 4 -->
+
+            <div class="collection-product"
+            data-occasion="Summer"
+              data-color="White"
+              data-arrival="New">
+              <img src="./images/f4.jpg" />
+
+              <h2>White Floral Casual Shirt</h2>
+
+              <p>₹599</p>
+            </div>
+
+            <!-- PRODUCT 5 -->
+
+            <div class="collection-product"
+            data-occasion="Party"
+              data-color="Blue"
+              data-arrival="Old">
+              <img src="./images/f5.jpg" />
+
+              <h2>Navy Floral Print Shirt</h2>
+
+              <p>₹699</p>
+            </div>
+
+            <!-- PRODUCT 6 -->
+
+            <div class="collection-product"
+            data-occasion="Party"
+              data-color="Blue"
+              data-arrival="Old">
+              <img src="./images/f6.jpg" />
+
+              <h2>Brown Color Block Shirt</h2>
+
+              <p>₹899</p>
+            </div>
+
+            <!-- PRODUCT 7 -->
+
+            <div class="collection-product"
+            data-occasion="Beach"
+              data-color="Green"
+              data-arrival="Old">
+              <img src="./images/f7.jpg" />
+
+              <h2>Beige Floral Print Trousers</h2>
+
+              <p>₹399</p>
+            </div>
+
+            <!-- PRODUCT 8 -->
+
+            <div class="collection-product"
+            data-occasion="Party"
+              data-color="Blue"
+              data-arrival="New">
+              <img src="./images/n8.jpg" />
+
+              <h2>Dark Grey Casual Shirt</h2>
+
+              <p>₹399</p>
+            </div>
+
+            <!-- PRODUCT 9 -->
+
+            <div class="collection-product"
+            data-occasion="Party"
+              data-color="White"
+              data-arrival="Old">
+              <img src="./images/n3.jpg" />
+
+              <h2>White Formal Shirt</h2>
+
+              <p>₹399</p>
+            </div>
+
+            <!-- PRODUCT 10 -->
+
+            <div class="collection-product"
+            data-occasion="Summer"
+              data-color="Green"
+              data-arrival="Old">
+              <img src="./images/n7.jpg" />
+
+              <h2>Tan Utility Shirt</h2>
+
+              <p>₹699</p>
+            </div>
+
+            <!-- PRODUCT 11 -->
+
+            <div class="collection-product"
+            data-occasion="Beach"
+              data-color="Green"
+              data-arrival="New">
+              <img src="./images/n4.jpg" />
+
+              <h2>Grey Printed Casual Shirt</h2>
+
+              <p>₹599</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+
+    <section class="communication">
+      <div class="communication__container">
+        <div class="communication__title">
+          <h3>Join our News Letter</h3>
+        </div>
+
+        <div class="communication__para">
+          <p>
+            Signup for our email newspaper to get exclusive discounts, updates,
+            and more
+          </p>
+        </div>
+
+        <div class="communication__input">
+          <input type="text" />
+        </div>
+
+        <div class="communication__button">
+          <button>
+            Subscribe
+            <i class="fa-solid fa-arrow-right arrow"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <h1>Nostra</h1>
+
+      <p>
+        Discover the latest fashion trends and upgrade your wardrobe with our
+        stylish collection of clothing and accessories.
+      </p>
+
+      <div class="social-icons">
+        <i class="fa-brands fa-instagram"></i>
+
+        <i class="fa-brands fa-twitter"></i>
+
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+
+      <p>© 2026 Nostra. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
