@@ -92,11 +92,9 @@ const offerBanner = document.querySelector("#offer-banner");
 const offerClose = document.querySelector("#offer-close");
 
 if (offerBanner && offerClose) {
-
   offerClose.addEventListener("click", function () {
     offerBanner.style.display = "none";
   });
-
 }
 
 //SLIDER
@@ -105,34 +103,41 @@ const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
 
 if (slides && next && prev) {
-
   let currentSlide = 0;
 
   next.addEventListener("click", function () {
-
     currentSlide++;
 
     if (currentSlide >= 3) {
       currentSlide = 0;
     }
 
-    slides.style.transform =
-      `translateX(-${currentSlide * 100}%)`;
-
+    slides.style.transform = `translateX(-${currentSlide * 100}%)`;
   });
 
-
   prev.addEventListener("click", function () {
-
     currentSlide--;
 
     if (currentSlide < 0) {
       currentSlide = 2;
     }
 
-    slides.style.transform =
-      `translateX(-${currentSlide * 100}%)`;
-
+    slides.style.transform = `translateX(-${currentSlide * 100}%)`;
   });
-
 }
+
+//HEART
+const hearts = document.querySelectorAll(".heart");
+hearts.forEach(function (heart) {
+  heart.addEventListener("click", function () {
+    if (heart.classList.contains("fa-solid")) {
+      heart.classList.remove("fa-solid");
+      heart.classList.add("fa-regular");
+      heart.classList.remove("liked");
+    } else {
+      heart.classList.add("fa-solid");
+      heart.classList.remove("fa-regular");
+      heart.classList.add("liked");
+    }
+  });
+});

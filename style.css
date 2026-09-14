@@ -376,9 +376,9 @@ body {
   cursor: pointer;
 }
 
-.heart:hover {
-  color: red;
-}
+  .heart.liked{
+    color: red ;
+  }
 
 
 /* =========================
