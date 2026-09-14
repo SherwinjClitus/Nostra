@@ -114,3 +114,7 @@ These features are not currently implemented but represent potential enhancement
 ## License
 
 This project is open source and available under the MIT License. Feel free to use it as a reference for your own learning projects.
+
+---
+
+**Made with ❤️ by Sherwin**
